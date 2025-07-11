@@ -8,7 +8,7 @@
 }
 
 .container {
-    width: 86%;
+    width: 80%;
     margin: auto;
 }
 
@@ -27,6 +27,19 @@
 
 .btn:hover {
     background-color: #252432;
+}
+
+.section-heading {
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.section-txt {
+    font-size: 16px;
+    text-transform: capitalize;
+    line-height: 1.6em;
+    color: #8987A1;
+    margin: 19px 0;
 }
 /* -- end Global style -- */
 
@@ -129,4 +142,22 @@
 }
 
 /* -- hero area css end -- */
+
+
+
+/* -- see it action sec start -- */
+.action-area {
+    padding: 96px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.action-img img {
+    border-radius: 26px;
+    box-shadow: 10px 10px 50px #ccc;
+}
+
+/* -- see it action sec end -- */
 
