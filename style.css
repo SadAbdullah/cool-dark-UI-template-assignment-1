@@ -11,6 +11,10 @@ body {
     background-color: #F5F8FF;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 .container {
     width: 80%;
     margin: auto;
@@ -380,7 +384,7 @@ a {
 
 
 /*-- contact us start --*/
-.contacu-wrapper {
+.contact-wrapper {
     background: #fff;
     padding: 96px 0;
 }
