@@ -156,6 +156,11 @@ a {
 
 
 /* -- see it action sec start -- */
+.see-it-action-wrapper {
+    background: #fff;
+    padding-bottom: 76px;
+}
+
 .action-area {
     padding: 96px 0;
     display: flex;
@@ -179,6 +184,7 @@ a {
     border-radius: 24px;
     padding: 46px 76px;
     margin-bottom: 96px;
+    margin-top: -76px;
 }
 
 .productive-user-heading {
@@ -370,4 +376,104 @@ a {
 }
 
 /*-- web template area start --*/
+
+
+
+/*-- contact us start --*/
+.contacu-wrapper {
+    background: #fff;
+    padding: 96px 0;
+}
+
+.contact-area {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-area-txt {
+    flex: 0 0 55%; 
+}
+
+.contact-form {
+    flex: 0 0 45%; 
+}
+
+.contact-area-txt h2 {
+    font-size: 42px;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+
+.contact-area-txt img {
+    width: 60%;
+    height: auto;
+}
+
+.contact-form form {
+    padding: 46px;
+    border-radius: 24px;
+    box-shadow: 10px 10px 49px -10px #ccc;
+}
+
+label {
+    font-size: 15px;
+    font-weight: 600;
+    color: #000248;
+    margin-bottom: 16px;
+    display: inline-block;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+    background-color: #F5F8FF;
+    border: none;
+    border-bottom: 1px solid #4E47FF;
+    border-radius: 10px;
+    width: 100%;
+    display: block;
+    margin-bottom: 10px;
+    padding: 15px 19px;
+    font-size: 16px;
+}
+
+
+input[type="submit"]{
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    color: #fff;
+    background-color: #4E47FF;
+    border: 1px solid #4E47FF;
+    box-shadow: 10px 10px 50px #ccc;
+    padding: 14px 34px;
+    border-radius: 10px;
+    text-transform: capitalize;
+    font-weight: 600;
+    transition: 0.6s;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover{
+    background-color: #252432;
+}
+
+.input-name {
+    display: flex;
+    gap: 19px;
+}
+
+.user-input-field {
+    width: 50%;
+}
+
+.submit-btn {
+    margin-top: 29px;
+}
+
+
+/*-- contact us end --*/
+
 
