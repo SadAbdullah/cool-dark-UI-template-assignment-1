@@ -16,6 +16,11 @@ body {
     margin: auto;
 }
 
+a {
+    text-decoration: none;
+    color: #252432;
+}
+
 .btn {
     text-decoration: none;
     display: inline-block;
@@ -318,10 +323,51 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    
+    padding: 76px;   
+}
+
+/* -- call to action end -- */
+
+
+/*-- web template area start --*/
+.web-template-area {
+    margin-bottom: 76px;
+    text-align: center;
+}
+
+.web-template-area h2 {
+    font-size: 42px;
+    font-weight: 700;
 }
 
 
+.web-template-container {
+    display: flex;
+    flex-wrap: wrap;
+}
 
-/* -- call to action end -- */
+.web-template {
+    padding: 19px;
+    flex: 0 0 33.33%; 
+}
+
+.web-template img {
+    width: 100%;
+    height: auto;
+    border-radius: 24px;
+    box-shadow: 10px 10px 49px -10px #ccc;
+    margin-bottom: 10px;
+    transition: 0.4s;
+}
+
+.web-template img:hover {
+    margin-top: 24px;
+}
+
+.web-template h4 {
+    font-size: 24px;
+    margin: 19px 0;
+}
+
+/*-- web template area start --*/
 
