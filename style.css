@@ -400,7 +400,7 @@ a {
 }
 
 .contact-area-txt h2 {
-    font-size: 42px;
+    font-size: 50px;
     font-weight: 700;
     margin-bottom: 24px;
 }
@@ -439,6 +439,21 @@ textarea {
     font-size: 16px;
 }
 
+input::placeholder {
+  color: #B3B3B3;
+  font-size: 14px;
+  opacity: 1;
+}
+
+textarea::placeholder {
+  color: #B3B3B3;
+  font-size: 14px;
+  opacity: 1;
+}
+
+textarea {
+    height: 156px;
+}
 
 input[type="submit"]{
     text-decoration: none;
