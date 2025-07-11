@@ -488,7 +488,59 @@ input[type="submit"]:hover{
     margin-top: 29px;
 }
 
-
 /*-- contact us end --*/
 
 
+
+
+/* -- footer area start -- */
+.footer-area {
+    padding: 96px 0 76px;
+    text-align: center;
+}
+
+.footer-logo img {
+    width: 111px;
+    height: auto;
+    
+}
+
+.footer-menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-menu ul li a {
+    color: #8987A1;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 17px;
+    text-transform: capitalize;
+    margin-left: 49px;
+    transition: 0.4s;
+}
+
+.footer-menu ul li a:hover {
+    color: #4E47FF;
+    margin-top: 10px;
+}
+
+.footer-social {
+    padding: 46px 0 0;
+}
+
+.footer-social .fa-brands {
+    font-size: 22px;
+    margin: 0 10px;
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+.footer-social .fa-brands:hover {
+    color: #4E47FF;
+}
+
+/* -- footer area end -- */
